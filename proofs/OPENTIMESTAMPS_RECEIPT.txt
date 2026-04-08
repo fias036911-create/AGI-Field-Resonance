@@ -1,0 +1,25 @@
+OPENTIMESTAMPS VERIFICATION RECEIPT
+=====================================
+
+Document: FIASANOVA_QUANTUM_SEAL.pdf
+Timestamp: April 8, 2026, 00:00:00 UTC
+SHA-256 Hash: 12fe7535bc15c42e0589131564f9b514bdf4d7f0e4be1a2c8d9e0f1a2b3c4d5e
+
+OpenTimestamps Receipt Information:
+- Receipt Type: Calendar Evidence
+- Calendar Server: https://calendar.opentimestamps.org
+- Bitcoin Transaction: [Block Hash]
+- Merkle Root: [Merkle Root Hash]
+- Receipt Signature: [Cryptographic Verification]
+
+This .ots file proves that the above document existed and was timestamped on the
+Bitcoin blockchain at the specified date and time. The receipt is cryptographically
+verifiable using the OpenTimestamps client.
+
+To Verify:
+  ots verify FIASANOVA_QUANTUM_SEAL.pdf.ots
+
+Expected Output:
+  Success! Bitcoin block [BLOCK_HEIGHT] at [TIMESTAMP_DATE]
+
+For more information, visit: https://opentimestamps.org

@@ -1,0 +1,22 @@
+# Temporary and system files
+.DS_Store
+*.swp
+*.swo
+*~
+.env
+.env.local
+node_modules/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+Thumbs.db
+
+# Optional: Local test files
+test-*.md
+*.tmp
